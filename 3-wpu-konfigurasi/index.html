@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+              13: "3.25rem",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Tailwind WPU - Konfigurasi</title>
+    <style type="text/tailwindcss">
+      * {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center text-3xl my-5">Hello TailwindCSS Spacing, Sizing, Typograpy</h1>
+
+    <!-- SPACING -->
+    <section class="spacing">
+      <h2>Spacing</h2>
+      <div class="m-13">Margin</div>
+      <div class="p-13">Padding</div>
+    </section>
+
+    <!-- SIZING -->
+    <section class="sizing">
+      <h2 class="">Sizing</h2>
+      <div
+        class="w-32 h-32 flex justify-center items-center bg-green-300"
+      > Kotak 1</div>
+    </section>
+
+    <!-- TYPOGRAFI -->
+  </body>
+</html>
