@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      module.exports = {
+        theme: {
+          extends: {
+            fontFamily: {
+              'sans': ['Poppins'],
+            },
+          },
+        },
+      };
+    </script>
+    <title>Tailwind WPU 4 - Basic Utility 1</title>
+  </head>
+  <body>
+    <!-- judul -->
+    <h1 class="my-10 text-center text-7xl font-bold">
+      Learn <span class="bg-gradient-to-r from-blue-500 to-teal-500 bg-clip-text text-transparent">Tailwind</span> With WPU
+    </h1>
+
+    <!-- flex lat 1 -->
+    <div class="w-1/2 mx-auto my-auto border-2 flex flex-row">
+      <div class="h-96 bg-orange-400 basis-1/2 p-8">
+        <img alt="" />
+        <h1 class="font-bold text-3xl text-white mb-4">SEDANS</h1>
+        <p class="text-white mb-6 font-poppins">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+        <div class="bg-white px-5 py-2 rounded-3xl">
+          <span class="text-xs font-medium text-orange-400">LEARN MORE</span>
+        </div>
+      </div>
+      <div class="h-96 bg-green-400 basis-1/2 p-8">
+        <img alt="" />
+        <h1 class="font-bold text-3xl text-white mb-4">SEDANS</h1>
+        <p class="text-white mb-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+        <div class="bg-white px-5 py-2 rounded-3xl">
+          <span class="text-xs font-medium text-orange-400">LEARN MORE</span>
+        </div>
+      </div>
+      <div class="h-96 bg-blue-400 basis-1/2 p-8">
+        <img alt="" />
+        <h1 class="font-bold text-3xl text-white mb-4">SEDANS</h1>
+        <p class="text-white mb-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, at!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+        <div class="bg-white px-5 py-2 rounded-3xl">
+          <span class="text-xs font-medium text-orange-400">LEARN MORE</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- lat card -->
+    <div class="flex w-1/2 mx-auto my-10 gap-5">
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./bg.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h4
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h4>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./bg.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- simple blog -->
+    <section class="max-w-xl mx-auto">
+      <h2 class="text-4xl font-bold mb-2">Learn Using Typograpy with TailwindCSS</h2>
+      <span class="text-gray-600">By choiruladamm, 05 Januari 2023</span>
+      <p class="mt-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laborum magnam quas illo cum ipsum impedit cupiditate a harum. Assumenda esse reiciendis quisquam quidem nemo, accusamus aperiam modi rem porro necessitatibus, natus quae laboriosam consectetur. A iure aliquid qui architecto facere, ullam earum, magni dolorem provident nostrum, quisquam eaque? Nulla.
+      </p>
+      <blockquote class="mt-4 text-gray-500 italic">
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium placeat animi libero. Dolorem veniam officia voluptatum error necessitatibus esse deserunt.""
+      </blockquote>
+      <p class="mt-4">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. At consequatur saepe ad, sed vero quasi ipsa architecto aperiam debitis dolorum culpa totam ut. Repudiandae commodi est unde odio aspernatur tempora nihil voluptatibus modi qui eveniet.
+      </p>
+    </section>
+    
+    <div class="mb-[30rem]"></div>
+  </body>
+</html>
