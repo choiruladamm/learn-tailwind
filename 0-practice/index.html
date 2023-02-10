@@ -10,196 +10,22 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://kit.fontawesome.com/563cc9db3c.css"
-      crossorigin="anonymous"
-    />
-    <title>Practice</title>
-    <link rel="stylesheet" href="output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Menu</title>
   </head>
-  <body class="font-[Poppins]">
-    <!-- judul -->
-    <h1
-      class="text-center text-7xl font-semibold mt-10 bg-gradient-to-r from-sky-500 to-teal-400 text-transparent bg-clip-text"
-    >
-      Learn Pseudo-classes TailwindCSS
-    </h1>
-
-    <!-- hover, focus, and active -->
-    <h1 class="capitalize text-center mt-20 font-medium">
-      hover, focus, and active
-    </h1>
-    <button
-      class="mt-5 bg-sky-500 hover:bg-sky-700 px-5 py-2 block mx-auto rounded-full text-white font-medium"
-    >
-      Save Changes
-    </button>
-    <button
-      class="mt-5 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:ring focus:ring-violet-300 px-5 py-2 block mx-auto rounded-full text-white font-medium"
-    >
-      Save Changes
-    </button>
-
-    <!-- First, last, odd, and even -->
-    <h1 class="capitalize text-center mt-20 font-medium">
-      First, last, odd, and even
-    </h1>
+  <body>
     <div
-      class="mt-5 bg-white outline outline-slate-100 p-5 max-w-xl rounded-xl mx-auto shadow-xl"
+      class="max-w-xl bg-white shadow-xl p-5 rounded-xl outline outline-slate-100 mt-5 mx-auto flex flex-wrap gap-5"
     >
-      <ul class="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
-        <li class="pb-3 sm:pb-4">
-          <div class="flex items-center space-x-4">
-            <div class="flex-shrink-0">
-              <img
-                class="w-8 h-8 rounded-full"
-                src="https://source.unsplash.com/50x50?person"
-                alt="Neil image"
-              />
-            </div>
-            <div class="flex-1 min-w-0">
-              <p
-                class="text-sm font-medium text-gray-900 truncate dark:text-white"
-              >
-                Neil Sims
-              </p>
-              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                email@flowbite.com
-              </p>
-            </div>
-            <div
-              class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
-            >
-              $320
-            </div>
-          </div>
-        </li>
-        <li class="py-3 sm:py-4">
-          <div class="flex items-center space-x-4">
-            <div class="flex-shrink-0">
-              <img
-                class="w-8 h-8 rounded-full"
-                src="/docs/images/people/profile-picture-3.jpg"
-                alt="Neil image"
-              />
-            </div>
-            <div class="flex-1 min-w-0">
-              <p
-                class="text-sm font-medium text-gray-900 truncate dark:text-white"
-              >
-                Bonnie Green
-              </p>
-              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                email@flowbite.com
-              </p>
-            </div>
-            <div
-              class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
-            >
-              $3467
-            </div>
-          </div>
-        </li>
-        <li class="py-3 sm:py-4">
-          <div class="flex items-center space-x-4">
-            <div class="flex-shrink-0">
-              <img
-                class="w-8 h-8 rounded-full"
-                src="/docs/images/people/profile-picture-2.jpg"
-                alt="Neil image"
-              />
-            </div>
-            <div class="flex-1 min-w-0">
-              <p
-                class="text-sm font-medium text-gray-900 truncate dark:text-white"
-              >
-                Michael Gough
-              </p>
-              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                email@flowbite.com
-              </p>
-            </div>
-            <div
-              class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
-            >
-              $67
-            </div>
-          </div>
-        </li>
-        <li class="py-3 sm:py-4">
-          <div class="flex items-center space-x-4">
-            <div class="flex-shrink-0">
-              <img
-                class="w-8 h-8 rounded-full"
-                src="/docs/images/people/profile-picture-5.jpg"
-                alt="Neil image"
-              />
-            </div>
-            <div class="flex-1 min-w-0">
-              <p
-                class="text-sm font-medium text-gray-900 truncate dark:text-white"
-              >
-                Thomas Lean
-              </p>
-              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                email@flowbite.com
-              </p>
-            </div>
-            <div
-              class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
-            >
-              $2367
-            </div>
-          </div>
-        </li>
-        <li class="pt-3 pb-0 sm:pt-4">
-          <div class="flex items-center space-x-4">
-            <div class="flex-shrink-0">
-              <img
-                class="w-8 h-8 rounded-full"
-                src="/docs/images/people/profile-picture-4.jpg"
-                alt="Neil image"
-              />
-            </div>
-            <div class="flex-1 min-w-0">
-              <p
-                class="text-sm font-medium text-gray-900 truncate dark:text-white"
-              >
-                Lana Byrd
-              </p>
-              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                email@flowbite.com
-              </p>
-            </div>
-            <div
-              class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white"
-            >
-              $367
-            </div>
-          </div>
-        </li>
-      </ul>
+      <a href="pseudo-classes.html" class="bg-sky-500 text-white inline-block p-10 text-center flex-auto rounded-xl font-semibold">
+        <span class="">Pseudo-classes</span>
+      </a>
+      <a href="#" class="bg-sky-500 text-white inline-block p-10 text-center flex-auto rounded-xl font-semibold">
+        <span class="">Menu</span>
+      </a>
+      <a href="#" class="bg-sky-500 text-white inline-block p-10 text-center flex-auto rounded-xl font-semibold">
+        <span class="">Menu</span>
+      </a>
     </div>
-
-    <!-- styling based on parent state -->
-    <h1 class="capitalize text-center mt-20 font-medium">
-      styling based on parent state
-    </h1>
-    <div
-      class="max-w-xl bg-white p-5 shadow-xl rounded-xl mx-auto mt-5 outline outline-slate-200 group hover:bg-sky-600"
-    >
-      <h1 class="text-2xl mb-2 font-semibold group-hover:text-white">
-        New Project
-      </h1>
-      <p class="text-slate-500 group-hover:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, distinctio
-        at. Minima harum facere eius error provident impedit beatae quia cumque
-        dolor. Minima, accusamus illum.
-      </p>
-    </div>
-
-    <!-- space bottom -->
-    <div class="mt-10"></div>
   </body>
 </html>
