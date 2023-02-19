@@ -50,6 +50,10 @@ button {
   transition: 0.4s;
 }
 
+.control:hover {
+  background: rgba(255, 91, 91, 0.1);
+}
+
 .login-card {
   width: 400px;
   padding: 100px 30px 32px;
